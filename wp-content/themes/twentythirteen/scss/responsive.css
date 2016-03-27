@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2016, 8:25:25 PM
+    Author     : Anup
+*/
+/* Medium devices (tablets) */
+@media (max-width: 991px) {
+    
+}
+
+/* Small devices (Larg screen phone) */
+@media (max-width: 767px) { 
+    #menu{
+        
+    }
+}
+
+/* Exter small devices (smart phone) */
+@media (max-width: 480px) { 
+
+}

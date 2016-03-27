@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 24, 2015, 1:58:32 PM
+    Author     : Anup Biswas <anup@illusivedesign.net>
+*/
+.wp-list-table .column-featured_image{
+  width: 120px;
+  text-align: center;
+}
+.wp-list-table .column-custom_order .edit-custom-order{
+  position: relative;
+  width: 100px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #0085ba;
+}
+.wp-list-table .column-custom_order .edit-custom-order .sr{
+  cursor: pointer;  
+  padding: 0 10px;
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: url(../images/edit-26.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.wp-list-table .column-custom_order .edit-custom-order .inline-order{  
+    height: 25px;
+    left: 0;
+    max-width: 73px;
+    position: absolute;
+    top: 0;
+    border-color: transparent;
+    display: none;
+}
+.wp-list-table .column-custom_order .edit-custom-order .button{
+    border: 0 none;
+    border-radius: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 25px;
+     display: none;
+     
+}

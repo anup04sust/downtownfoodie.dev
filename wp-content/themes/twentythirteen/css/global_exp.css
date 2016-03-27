@@ -1,0 +1,170 @@
+html, body { height: 100%; width:100% }
+body { margin:0; padding: 0; border: 0;font-family:'Varela Round', sans-serif;  font-size: 11px; background-color: #000; }
+a img { border: 0; }
+img { -ms-interpolation-mode: bicubic; }
+
+h3 { font-size: 14px; color: #c8641b; }
+#background_container { position: absolute; top:0; left:0; }
+#background { position:fixed; top: 0px; left: 0px; overflow:hidden; }
+* html #background {position:absolute;}
+
+#page { width: 100%; height: 100%; min-height: 670px;  }
+.menuici { position:absolute; top:-60px; right:-6px; z-index:10000; }
+
+#menu1 { background:#f00;  padding-top:10px; background-image:url(/crownplaza/wp-content/themes/twentythirteen/images/menu_bg.png); height: 72px; width: 100%; }
+
+.submenu{ text-align:right; padding-right:12px; padding-bottom:16px;}
+
+.submenu li{ text-decoration:none; list-style:none; width:260px}
+.submenu li a { font-size:16px; text-decoration:none;font-family: 'Varela Round', sans-serif; color:#FFFFFF; font-weight:bold}
+.submenu li a:hover{ color:#33CC00}
+
+
+#menu div.copyright { position:absolute; bottom:-20px; right:35px; font-family: 'Varela Round', sans-serif; color:#c0c0c0; }
+#menu div.copyright a { margin-left:0px !important; clear:none !important; color:#c0c0c0; font-family: 'Varela Round', sans-serif;	text-decoration:none; font-weight:bold; text-transform:uppercase; font-size:9px; } 
+#menu div.copyright a:hover { color:#d61c0d; }
+
+#menu a { margin-left: 7px; }
+#menu a.right { float: right; margin-top:5px; margin-right: 50px; }
+* html #menu { background-color: #000; background-image: none; }
+
+#menu .bulle { display: none; position: absolute; top: -80px; z-index:10000; }
+#menu a:hover .bulle { display: block; }
+#menu .menu { left: 20px; }
+#menu .raisin { left: 300px; top: -120px; }
+#menu .photos { left: 430px; top: -65px; }
+#menu .videos { left: 520px; top: -72px; }
+#menu .cave { left: 70px; }
+#menu .salon { left: 160px; }
+
+#fb_wrapper { position:absolute;top:530px; left:20px; }
+
+
+#quick-menu { position: absolute; font-family: 'Varela Round', sans-serif;  top:35px; height:55px; float:right; right:0px; width:600px; text-transform:uppercase;  background-image:url(/crownplaza/wp-content/themes/twentythirteen/images/top_menu_bg.png); background-repeat:no-repeat;background-position:right;    }
+#quick-menu ul { list-style:none; margin:0; padding:0;padding-top:18px; float:right; padding-right:50px;} 
+#quick-menu ul li { list-style:none; margin:0; padding:0; float:left; padding-left:15px; } 
+
+#quick-menu ul li a{ font-size:14px; color:#FFFFFF; text-decoration:none; } 
+
+#container { position: relative; top: 130px; width: 1020px; height:430px; left:+2px; margin: 0 auto 0 auto;border:0px solid #FFF; }
+#sidebar { float: left; position: relative; width: 280px;  height: 430px; background: url(/crownplaza/wp-content/themes/twentythirteen/images/bg_titles.jpg); }
+#content { position: relative; float: left; background: url(/crownplaza/wp-content/themes/twentythirteen/images/content_bg.png); width: 685px; border:0px solid #fff; padding:20px; padding-top:20px; padding-right:30px; height:390px; text-align:justify;color:#FFFFFF; font-size:14px; overflow:hidden;
+ }
+
+#content-toggler { position: absolute; bottom: -25px; right:0px; cursor: pointer; }
+
+.col-1 {    float: left; overflow:auto; border:0px solid #fff }
+.col-2 { padding: 20px 20px; width: 250px; float: left; }
+
+.col-501 { float: left; width:340px;  border:0px solid #fff; }
+.col-502 { float: right;width:340px; border:0px solid #fff }
+
+
+.col-menu { padding: 20px 0px 20px 20px; width: 250px; float: left; }
+.col { margin-top:45px !important; }
+.col_lower { margin-top:75px !important; }
+
+.col-menu h4 { margin-bottom: 0; padding: 0; color: #7b695d; }
+.colspecial h4 { margin:2px 0 !important; padding: 0; color: #7b695d; }
+.col-menu p { margin: 0; padding: 0; line-height:12px; }
+
+.content-horiz { width: 700px; height: 375px; overflow-x: auto; overflow-y: hidden; }
+/*.inner-content-horiz { width: 4000px; }*/
+
+.contact { padding-bottom: 20px; float: left; width: 125px; }
+
+.with-img-right { margin:0; padding:0; list-style: none; width:250px; }
+.with-img-right h3 { margin: 0; padding: 0px 0px 0px 0px; }
+.with-img-right p { margin: 0; padding: 0; }
+.with-img-right li img { float: right; }
+.with-img-right li { padding: 15px 0px 0px 0px; vertical-align:top; min-height:44px; width:250px; }
+
+
+.clear { clear: both; }
+.right { float: right; }
+.left { float: left; }
+
+.top { position: absolute; top: 18px; right:20px; float:right; font-size:28px; 
+font-family: 'Varela Round', sans-serif; text-transform:uppercase; color:#FFF; font-weight:bold }
+.bottom { position: absolute; bottom: 0; right:5px; font-family: 'Varela Round', sans-serif; }
+.aright { position: absolute; right: 0; }
+.aleft { position: absolute; left: 0; }
+
+#content i, #content em { color: #7b695d; }
+#content a { color: #FFFFFF; }
+
+label { font-family: 'Varela Round', sans-serif; font-size:12px; font-weight:bold; color: #7b695d; width: 100%; }
+.field { background-color: #FEF7E6; border:5px solid #B8AA95; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; padding:2px; }
+
+#cv-attached { margin-top:22px; display: none; }
+#bt-submit { cursor: pointer; }
+#upload-list { display: none; }
+
+#upload-attach img { background-image: url(/crownplaza/wp-content/themes/twentythirteen/images/emploi-_bt_browse_off_.gif); }
+#upload-attach.hover img { background-image: url(/crownplaza/wp-content/themes/twentythirteen/images/emploi-_bt_browse_on_.gif); }
+#upload-attach.load img { background-image: url(/crownplaza/wp-content/themes/twentythirteen/images/emploi-_bt_load.gif) !important; }
+
+.fut { background-image:url(/crownplaza/wp-content/themes/twentythirteen/images/ico_fut.gif); background-position:96% 50%; background-repeat:no-repeat; }
+.bouteille { background-image:url(/crownplaza/wp-content/themes/twentythirteen/images/ico_biere.gif); background-repeat:no-repeat; background-position:95% 50%; }
+.bouteille h4 { padding-right:25px; }
+.fut h4 { padding-right:30px; }
+.ou { padding:5px 0; color: #c8641b; font-weight:bold; }
+
+h4 { font-size:12px; * margin:10px 0px; }
+h3 { font-size:14px; }
+
+.richard li { list-style-image:url(/crownplaza/wp-content/themes/twentythirteen/images/img_fleche.gif); margin-left:0px; padding-left:0px; }
+.richard ul { margin:0; padding:0; }
+.richard ul li { margin:0; padding:0; }
+.thumbnail { border:5px solid black; margin-right:5px; margin-bottom:5px; }
+.galerie_photo a:hover img {
+	border:5px solid black;
+	filter: alpha(opacity=50); /* internet explorer */
+	-khtml-opacity: 0.5; /* khtml, old safari */
+	-moz-opacity: 0.5; /* mozilla, netscape */
+	opacity: 0.5; /* fx, safari, opera */
+	
+}
+img { outline:none; }
+a { outline:none; }
+
+.menupdf { position:absolute; top:5px; left:535px; }
+.glutenfree { position:absolute; top:15px; left:360px; }
+#footer{position:absolute; bottom:30px; width:100%}
+
+#copyright{float:left; padding-left:50px; position:absolute; bottom:0px; color:#FFFFFF; font-size:12px;}
+#copyright a{ color:#FFFFFF}
+#share{float:right; padding-right:50px;}
+
+.button{color:#FFFFFF; font-family:'Varela Round', sans-serif; text-transform:uppercase;border:none;margin-right:-2px; padding-right:0px; cursor:pointer; text-transform:uppercase; background-color:transparent}
+.submenu li a.selected{ color:#33CC00}
+
+#event_list{font-size:10px; font-weight:normal}
+#event_list td{ text-align:center}
+#event_list .col1{text-transform:uppercase; text-align:left; padding:2px; padding-top:1px; padding-bottom:1px}
+.form-input{ width:320px}
+.form-input_half{ width:165px}
+.form-input_dropdown{ width:323px}
+
+.form-input2{ width:328px}
+
+.top_right_text{float:right;font-size:14px; font-weight:bold; text-transform:uppercase; text-align:right;font-family: 'Varela Round', sans-serif;  height:60px; border:0px solid #FFF}
+.top_right_text_left_aligned{float:left;font-size:16px; text-align:left;  width:340px; font-family: 'Varela Round', sans-serif; height:45px; border:0px solid #FFF}
+
+.contact_text{font-size: 10px; text-align: left; width:670px;float:left; position:absolute; bottom:25px; margin-bottom:0px;border:0px solid #FFF }
+.textarea{width:335px; margin-top:2px; height:181px}
+
+.textarea2{width:325px;margin-top:2px; height:140px}
+
+.font_small{font-size:10px; font-weight:normal}
+.font_small_normal{font-size:12px; font-weight:normal}
+.font_small2bold{font-size:12px; font-weight:bold}
+.top_left{font-size:16px; border:0px solid #F00; padding-top:0px; margin-top:0px;}
+#instafeed a{padding:5px}
+.mytable td{ padding-left:2px}
+.text_outlet{ padding-top:7px; font-size:14px}
+.mytable tr{ height:40px}
+.about_title{ text-transform:uppercase; border:0px solid #F00}
+.second_small_text{margin-left:2px;}
+
+#selected_icon{color:#33CC00;  display:inline; margin-top:115px;position: relative;bottom: 25px;left:12px;font-weight:bold;padding: 10px;font-size:16px;height: 72px; width: 40%; text-transform:uppercase}

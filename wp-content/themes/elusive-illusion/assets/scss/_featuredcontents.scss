@@ -1,0 +1,60 @@
+
+.featured-items{
+  .feature-title{
+    margin: 0px;
+    font-size: $heading_extra_3;
+    font-weight: $font_weight_light;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .featured-item{
+    .thumbnail{
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      overflow: hidden;
+      position: relative;
+      @include transition(all, 0.25s);
+      img{
+        width: 100%;
+        height: auto;
+      }
+      .caption{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding:15px 30px;
+       
+        background: transparentize($color_deep2,.15);   
+        > .ctitle{
+          color: $color_dark_rev;
+          font-size: $heading_extra_5;
+          font-weight: bold;
+           margin: 0;
+           line-height: 1.1;
+        }
+        .readmore{
+          background-color: $color_light2;
+          background-image: none;
+          height: 40px;    
+          line-height: 40px;
+          margin-top: -14px;
+          top: 0;
+          right: 10px;
+          text-align: center;
+          width: 40px;
+          opacity: 1;
+          color: $color_dark;
+          position: absolute;
+          display: block;
+          overflow: hidden;
+          
+        }
+      }
+      &:hover{
+        opacity: .8;
+      }
+    }
+  }
+}

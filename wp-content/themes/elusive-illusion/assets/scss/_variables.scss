@@ -1,0 +1,92 @@
+/* 
+* Variables
+*===============================================================================
+*/
+$background_color: #FFFFFF;
+
+$base_font: 'Open Sans', sans-serif;
+$base_font_alt: 'Roboto Condensed', sans-serif;
+
+$font_weight_normal:400;
+$font_weight_light:300;
+$font_weight_smb:600;
+
+$base_font_size: 16px;
+$base_font_sm: 14px;
+$base_font_xs: 13px;
+$base_font_xxs: 11px;
+
+$heading_extra_1: 30px;
+$heading_extra_2: 28px;
+$heading_extra_3: 26px;
+$heading_extra_4: 18px;
+$heading_extra_5: 16px;
+
+
+$color_deep : #0a2241;
+$color_deep1 : #132d4e;
+$color_deep2 : #013d88;
+$color_deep3: #235492;
+$color_deep4: #265998;
+
+$color_light : #e9f1ff;
+$color_light1 : #e1ac0b;
+$color_light2 : #ffc30d;
+
+$color_dark : #000000;
+$color_dark1 : #3e3e3e;
+$color_dark2 : #969696;
+$color_dark3 : #c2c2c2;
+$color_dark4 : #eaeaea;
+$color_dark5 : #f4f4f4;
+$color_dark6 : #f6f6f6;
+$color_dark_rev : #FFFFFF;
+
+$form_border_color: #c2c2c2;
+$form_border_color_active: #265998;
+
+$social-color:              #303030;
+$social-color-hover:        #ffffff;
+$social-bg:        #989898;
+$social-bg-hover:        #bc0e16;
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+$grid-float-breakpoint:     $screen-md-min;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
+$grid-gutter-width : 15px;
+$container-tablet : (720px + $grid-gutter-width);
+$container-desktop : (940px + $grid-gutter-width);

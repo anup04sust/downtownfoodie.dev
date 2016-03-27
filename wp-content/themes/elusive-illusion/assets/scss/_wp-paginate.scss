@@ -1,0 +1,42 @@
+//== Pagination
+//
+//##
+
+$pagination-color:                     #333;
+$pagination-bg:                        #fff;
+$pagination-border:                    #ddd;
+
+$pagination-hover-color:               #666;
+$pagination-hover-bg:                  #f4f4f4;
+$pagination-hover-border:              #ddd;
+
+$pagination-active-color:              #fff;
+$pagination-active-bg:                 #f4f4f4;
+$pagination-active-border:             #f4f4f4;
+
+$pagination-disabled-color:            #333;
+$pagination-disabled-bg:               #fff;
+$pagination-disabled-border:           #ddd;
+
+.wp-paginate{
+  display: inline-block;
+  padding-left: 0;
+  margin: auto auto;
+  border-radius: 0;
+  text-align: center;
+  clear: both;
+  >li{
+    display: inline-block;
+    >a,>span{
+      display: block;    
+      color: #333;
+      font-size: 16px;
+      line-height: 18px;
+      height: 32px;
+      padding: 7px 14px;
+      &.current{
+        color: #000;
+      }
+    }
+  }
+}

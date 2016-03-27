@@ -1,0 +1,134 @@
+
+
+.label{
+  border-radius:0;
+  &.label-default{
+    background-color: $color_dark4;
+    color: $color_deep1;
+  }
+}
+.well{
+  border-radius:0;
+  background-color: $color_dark5;
+  border-color: $color_dark4;
+  font-family: $base_font_alt;
+  box-shadow: none;
+}
+.tab_wrap{
+  border: 1px solid $color_dark4;
+
+  @include  box-shadow(0px, 2px ,0px, transparentize($color_dark,.95));
+  .nav-tabs{
+    background: $color_dark4;
+    border-bottom: 0;
+    > li{ 
+      margin:0px;
+      > a{
+        border-radius: 0;
+        margin:0px;
+        border: 0;
+        color: $color_dark1;
+        font-weight: $font_weight_smb;
+      }
+      &+li{
+        border-left: 1px solid $color_dark6;
+      }
+      &.active{
+        > a{
+          color: $color_deep1;
+        }
+      }
+    }
+  }
+  .tab-content{
+    padding: 15px 35px;
+  }
+}
+.panel-group{
+  .panel{
+    border-radius: 0;
+    .panel-heading{
+      border-radius: 0;
+      background: $color_dark4;
+      padding: 0px;
+
+      .accordion-toggle{
+        display: block;
+        text-decoration: none;
+        outline: none;
+        padding: 10px 15px;
+        font-weight: $font_weight_smb;
+      }
+    }
+  }
+}
+.table{
+  thead,tbody{
+    tr{
+      th{
+        border-top: 0;
+        border-color: $color_light2;
+      }
+    }
+  }
+}
+.btn{
+  border-radius: 0;
+  &+.btn{
+    margin-left: 5px;
+  }
+  &.btn-primary{
+    background: $color_light2 none repeat scroll 0 0 !important;
+    border:0;
+    border-bottom: 3px solid $color_light1;     
+    opacity: 0.8;     
+    text-align: center;
+    color: $color_dark;
+    &:hover{
+      background: $color_light1!important;
+    }
+  }
+  &.btn-submit{
+    background: $color_deep4;
+    font-size: $heading_extra_4;
+    color: $color_dark_rev;
+    font-weight: $font_weight_smb;
+    font-family: $base_font_alt;
+    padding: 6px 25px;
+  }
+}
+.form-control{
+  box-shadow: none;
+  border-radius: 0;
+  border-color: $form_border_color;
+  @include transition(all, 0.25s);
+  &:focus{
+    border-color: $form_border_color_active;
+  }
+}
+textarea.form-control{
+  max-height: 150px;
+  resize: vertical;
+}
+img.wpcf7-captchac{
+  border: 2px solid $form_border_color;  
+  height: 50px;
+  width: 100px;
+  padding: 8px;
+}
+.modal{
+  .modal-dialog{
+    margin-top:100px;
+    .modal-content{
+      border-radius: 0;
+    }
+  }
+}
+.alert{
+  border-radius: 0;
+}
+#download-preview {
+  .modal-body{
+    padding: 0;
+  }
+}

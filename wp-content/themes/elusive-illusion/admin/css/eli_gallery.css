@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 30, 2015, 10:40:42 AM
+    Author     : Anup Biswas <anup@illusivedesign.net>
+*/
+
+.admin-gallery-images{
+  padding: 0px 30px;
+}
+.admin-gallery-images .eli-gfooter,
+.admin-gallery-images .eli-gallery-wrap{
+  padding: 15px 0px;
+  text-align: center;
+}
+.admin-gallery-images .eli-gallery-wrap figure{
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: top;
+  position: relative;
+  padding: 1px;
+  border: 1px solid #f7f7f7;
+  margin: 3px;
+}
+.admin-gallery-images .eli-gallery-wrap figure img{
+  width: 100%;
+  height: auto;
+}
+.admin-gallery-images .eli-gallery-wrap figure button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1px;
+  background: rgba(255,255,255,.8);
+  border: 0;
+  color: #666;
+  cursor: pointer;
+}
+.admin-gallery-images .eli-gallery-wrap figure:hover button{
+    background: rgba(255,255,255,1);
+}
+.admin-gallery-images .eli-gfooter{
+  border-top: 1px solid #f7f7f7;
+}
